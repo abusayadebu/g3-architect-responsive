@@ -254,6 +254,19 @@ nav li a{
     gap: 30px;
 }
 
+/* --footer section style */
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(255, 244, 231, 1);
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer-section p{
+    font-size: 1.25rem;
+    color:rgba(66, 66, 66, 1);
+}
 
 
 
@@ -327,6 +340,4 @@ nav li a{
    .sponsor-cart-conatiner{
         grid-template-columns: repeat(2, 1fr);
     }
-
-
 }
