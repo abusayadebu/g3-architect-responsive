@@ -120,9 +120,66 @@ nav li a{
      margin: 24px 0px 32px 0px;
 }
 
+/* ----experience-section style */
+.experience-section{
+    max-width: 1440px;
+    margin: 130px auto;
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+
+.card-container{
+    margin-top: 30px;
+}
+.cards-div h3{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+.cards-div p{
+    color:rgba(114, 114, 114, 1);
+}
+
+.cards{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+.cards h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 
 
+.image-div{
+    position: relative;
+}
+
+.exprienc-div{
+    width: 330px;
+    padding: 45px 42px;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    text-align: center;
+    position: absolute;
+   bottom: -70px;
+    left: -92px;
+}
+.exprienc-div h5{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.exprienc-div p{
+    font-weight: 500;
+}
 
 
 
@@ -142,6 +199,19 @@ nav li a{
     .feature-content{
         margin-left: 20px;
     }
+
+    .experience-section{
+        flex-direction: column;
+        margin: 0px 10px;
+        gap: 50px;
+    }
+    .exprienc-div{
+        width: 270px;
+        padding: 30px 28px;
+        border-radius: 8px;
+        bottom: -70px;
+        left: 120px;
+    }
     
 }
 
@@ -154,4 +224,10 @@ nav li a{
         margin: 0 50px;
     }
     
+    .experience-section{
+        flex-direction: column;
+        margin: 0px 10px;
+        gap: 50px;
+    }
+   
 }
