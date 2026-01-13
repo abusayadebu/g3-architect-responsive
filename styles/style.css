@@ -231,6 +231,32 @@ nav li a{
 }
 
 
+/* ---sponsors section-- */
+.sponsors-section{
+    max-width: 1440px;
+    margin: 50px auto 130px;
+    text-align: center;
+}
+.sponsors-section h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsors-section p{
+    color: rgba(114, 114, 114, 1);
+}
+
+.sponsor-cart-conatiner{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    gap: 30px;
+}
+
+
+
+
 
 
 
@@ -269,7 +295,14 @@ nav li a{
     .fact-cart{
         margin-bottom: 50px;
     }
+
+    .sponsor-cart-conatiner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
+
+
 
 /* responsive for medium device */
 @media screen and (min-width: 576px) and (max-width:992px) {
@@ -291,5 +324,9 @@ nav li a{
     .fact-cart{
         margin-bottom: 50px;
     }
-   
+   .sponsor-cart-conatiner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
