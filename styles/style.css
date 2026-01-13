@@ -85,3 +85,13 @@ nav li a{
     width: 100%;
     margin-top: 50px;
 }
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-items{
+        flex-direction: column;
+    }
+    .nav-items{
+        margin-top: 20px;
+    }
+}
